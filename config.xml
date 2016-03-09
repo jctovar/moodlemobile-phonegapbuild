@@ -2,17 +2,17 @@
 <widget xmlns     = "http://www.w3.org/ns/widgets"
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
-        id        = "com.moodle.moodlemobile"
+        id        = "mx.unam.iztacala.suayed.moodle"
         versionCode = "2010"
         version   = "2.9">
-    <name>Moodle Mobile</name>
+    <name>Moodle UNAM</name>
 
     <description>
-        Moodle Mobile official app
+        Aplicacion de Moodle Mobile para la UNAM
     </description>
 
-    <author href="http://moodle.com" email="mobile@moodle.com">
-        Moodle Pty Ltd
+    <author href="http://ired.unam.mx" email="contacto@ired.unam.mx">
+        Universidad Nacional Autónoma de México, FES Iztacala
     </author>
 
     <gap:config-file platform="ios" parent="CFBundleShortVersionString">
@@ -21,6 +21,7 @@
 
     <gap:platform name="ios" />
     <gap:platform name="android" />
+    <gap:platform name="winphone" />
 
     <access origin="*" />
     <access origin="tel:*" launch-external="yes" />
