@@ -3,8 +3,8 @@
         xmlns:gap = "http://phonegap.com/ns/1.0"
         xmlns:android = "http://schemas.android.com/apk/res/android"
         id        = "mx.unam.iztacala.suayed.moodle"
-        versionCode = "2010"
-        version   = "2.9">
+        versionCode = "2011"
+        version   = "2.9.1">
     <name>Moodle UNAM</name>
 
     <description>
